@@ -3,17 +3,17 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "https://user-images.githubusercontent.com/60167960/229319877-77600973-dc1f-4b2a-b0da-ed38a67eec0e.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://user-images.githubusercontent.com/60167960/229319877-77600973-dc1f-4b2a-b0da-ed38a67eec0e.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://user-images.githubusercontent.com/60167960/229319877-77600973-dc1f-4b2a-b0da-ed38a67eec0e.png",
       "type": "image/png",
       "sizes": "512x512"
     }
