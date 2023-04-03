@@ -187,6 +187,14 @@ export const About = (props) => {
           </div>
         </div>
       </section>
+      {/* Contact Me */}
+      <section className="px-5 lg:px-0 pt-20">
+        <h2 className="text-xl lg:text-3xl text-white font-bold ">Contact</h2>
+        <p className="font-ghaly text-[#d3d4d6] pt-3">
+          Do contact me for collaboration, especially frontend works. I’ll be
+          happy to help! (find my email in the footer)
+        </p>
+      </section>
       <Footer />
     </>
   );
