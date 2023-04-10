@@ -18,4 +18,38 @@
       sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
       Noto Color Emoji;
   }
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+  }
+
+  .hover-underline-animation::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(61, 224, 102);
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+  }
+
+  .line-effect:hover .hover-underline-animation::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  .ghaly-effect {
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .ghaly-effect:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+      0 0 100px #03e9f4;
+  }
 }
