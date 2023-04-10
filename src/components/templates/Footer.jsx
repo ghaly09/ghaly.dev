@@ -66,10 +66,10 @@ export const Footer = () => {
         </div>
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-            <div className="font-ghaly text-sm text-slate-200 font-semibold">
+            <p className="font-ghaly text-sm text-slate-200 font-semibold">
               Copyright &copy; 2022 by{" "}
               <span className="hover:text-[#00CFC9]">Rachmat Ghaly</span>
-            </div>
+            </p>
           </div>
         </div>
       </div>
