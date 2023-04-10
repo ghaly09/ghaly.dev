@@ -6,7 +6,7 @@ export const Home = () => {
           <h2 className="text-2xl md:text-5xl text-white font-bold">Hi!</h2>
           <h2 className="text-3xl md:text-6xl text-white font-bold pb-3">
             You can call me{" "}
-            <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[rgb(0,218,210)] to-[rgb(61,224,102)]">
+            <span className="font-ghaly ghaly-effect text-transparent focus:text-transparent bg-clip-text bg-gradient-to-r from-[rgb(0,218,210)] to-[rgb(61,224,102)]">
               Ghaly
             </span>
           </h2>

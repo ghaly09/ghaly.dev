@@ -5,7 +5,7 @@ export const About = (props) => {
     <>
       {/* About Me */}
       <header id="about">
-        <div className="flex flex-col-reverse md:flex-row gap-5 justify-around items-center px-5 lg:px-0 pb-8 pt-20 md:pt-40">
+        <div className="flex flex-col-reverse md:flex-row gap-5 justify-around items-center px-5 lg:px-0 pb-8 pt-20 md:pt-40 ">
           <div>
             <h2 className="text-xl lg:text-3xl text-white font-bold">About</h2>
             <h2 className="text-2xl lg:text-4xl font-bold pb-3 text-transparent bg-clip-text bg-gradient-to-r from-[rgb(0,218,210)] to-[rgb(61,224,102)]">
@@ -28,7 +28,7 @@ export const About = (props) => {
               determined to learn and hone my skills. To achieve this, I turned
               to various learning resources such as YouTube, Coursera, and the
               Ruangguru Bootcamp especially{" "}
-              <span className="border-dotted border-b-2 border-[rgb(61,224,102)]">
+              <span className="border-dotted border-b-2 border-[rgb(61,224,102)] hover:text-[rgb(61,224,102)]">
                 frontend development.
               </span>
             </p>
