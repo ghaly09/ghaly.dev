@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container w-auto md:max-w-5xl mx-auto rounded-lg shadow-lg">
+      <div className="container w-auto md:max-w-5xl mx-auto rounded-lg">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
