@@ -1,7 +1,19 @@
+import { motion } from "framer-motion";
+
 export const Home = () => {
   return (
-    <header id="home">
-      <div className="flex flex-col-reverse sm:flex-row px-5 lg:px-0 justify-between items-center pb-10 pt-40">
+    <motion.header
+      className=" pt-52"
+      id="home"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.3,
+        ease: [0, 0.71, 0.2, 1.01],
+      }}
+    >
+      <div className="flex flex-col-reverse sm:flex-row px-5 lg:px-0 justify-between items-center pb-10">
         <div>
           <h2 className="text-2xl md:text-5xl text-white font-bold">Hi!</h2>
           <h2 className="text-3xl md:text-6xl text-white font-bold pb-3">
@@ -28,7 +40,7 @@ export const Home = () => {
         <svg
           stroke="currentColor"
           fill="currentColor"
-          stroke-width="0"
+          strokeWidth="0"
           viewBox="0 0 512 512"
           className="h-8 w-8 animate-bounce md:h-10 md:w-10 text-slate-200"
           height="1em"
@@ -37,13 +49,13 @@ export const Home = () => {
         >
           <path
             fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="48"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="48"
             d="M112 268l144 144 144-144M256 392V100"
           ></path>
         </svg>
       </div>
-    </header>
+    </motion.header>
   );
 };
