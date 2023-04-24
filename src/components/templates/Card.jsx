@@ -1,8 +1,8 @@
 export const Card = (props) => {
   return (
-    <div
+    <section
       id="box"
-      className="line-effect font-ghaly max-w-[21rem] scale-100 hover:scale-[1.02] active:scale-[0.97] motion-safe:transform-gpu transition duration-100 motion-reduce:hover:scale-100 animate-shadow"
+      className="container line-effect font-ghaly max-w-[21rem] hover:scale-[1.02] active:scale-[0.97] animate-shadow"
     >
       <div className="border-[1px] border-slate-600 bg-[#0e1111] md:shadow-xl rounded-md my-1.5">
         <a target="_blank" rel="noreferrer noopener" href={props.readMoreLink}>
@@ -21,12 +21,12 @@ export const Card = (props) => {
               {props.title}
             </h2>
 
-            <p className="truncate hover:text-clip hover:overflow-hidden break-words text-sm text-[#d3d4d6] px-1">
+            <p className="paragraph-overflow break-words text-sm text-[#d3d4d6] px-1">
               {props.description}
             </p>
           </div>
 
-          <div className="flex items-center justify-between py-2 md:py-4 md:mx-4">
+          <div className="flex items-center justify-between py-4 mx-4">
             {/* <a
               target="_blank"
               rel="noreferrer noopener"
@@ -60,6 +60,6 @@ export const Card = (props) => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
