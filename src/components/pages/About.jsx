@@ -1,4 +1,5 @@
 import { Footer } from "../templates/Footer";
+import { motion } from "framer-motion";
 
 export const About = (props) => {
   return (
@@ -6,16 +7,23 @@ export const About = (props) => {
       {/* About Me */}
       <header id="about">
         <div className="flex flex-col-reverse md:flex-row gap-5 justify-around items-center px-5 lg:px-0 pb-8 pt-20 md:pt-40 ">
-          <div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.3,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+          >
             <h2 className="text-xl lg:text-3xl text-white font-bold">About</h2>
             <h2 className="text-2xl lg:text-4xl font-bold pb-3 text-transparent bg-clip-text bg-gradient-to-r from-[rgb(0,218,210)] to-[rgb(61,224,102)]">
               Rachmat Ghaly
             </h2>
-            <p className="font-ghaly text-base pb-3 text-[#d3d4d6] ">
-              Hello, I'm Ghaly. I am a final-semester physics student
-              enthusiastic about research, teaching, programming, and design
-              activities to build visually attractive applications with
-              user-friendly interactions.{" "}
+            <p id="text" className="font-ghaly text-base pb-3 text-[#d3d4d6] ">
+              Hello, I'm Ghaly. I am a physics student enthusiastic about
+              research, teaching, programming, and design activities to build
+              visually attractive applications with user-friendly interactions.{" "}
             </p>
             <p className="font-ghaly text-base pb-4 text-[#d3d4d6] ">
               I started learning web development in January 2022, I've been
@@ -47,18 +55,35 @@ export const About = (props) => {
               way to remember things, and I can share my knowledge along the
               way. So do contact me and I will be very happy to help!
             </p>
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.5 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{
+              duration: 0.8,
+              delay: 0.3,
+              ease: [0, 0.71, 0.2, 1.01],
+            }}
+          >
             <img
               className="rounded-md w-60 md:w-[1000px]"
               src="https://user-images.githubusercontent.com/60167960/229328176-17019b6d-0c50-4058-8f23-6a66f2a8119a.png"
               alt="foto-profil-ghaly"
             />
-          </div>
+          </motion.div>
         </div>
       </header>
       {/* Current favorite tech stack/tools */}
-      <section className="px-5 lg:px-0">
+      <motion.section
+        className="px-5 lg:px-0"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.4,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+      >
         <h2 className="text-xl lg:text-2xl text-white font-bold">
           Current favorite tech stack/tools
         </h2>
@@ -186,15 +211,24 @@ export const About = (props) => {
             />
           </div>
         </div>
-      </section>
+      </motion.section>
       {/* Contact Me */}
-      <section className="px-5 lg:px-0 pt-20">
+      <motion.section
+        className="px-5 lg:px-0 pt-20"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          duration: 0.8,
+          delay: 0.3,
+          ease: [0, 0.71, 0.2, 1.01],
+        }}
+      >
         <h2 className="text-xl lg:text-3xl text-white font-bold ">Contact</h2>
         <p className="font-ghaly text-[#d3d4d6] pt-3">
           Do contact me for collaboration, especially frontend works. I’ll be
           happy to help! (find my email in the footer)
         </p>
-      </section>
+      </motion.section>
       <Footer />
     </>
   );
