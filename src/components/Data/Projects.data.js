@@ -12,17 +12,6 @@ export const projectsAttribute = [
   },
   {
     id: 2,
-    title: "Halotech.in Project",
-    imgSrc:
-      "https://user-images.githubusercontent.com/60167960/230816950-197eadb0-c6ef-4ad5-909f-d8975261cdf8.png",
-    description:
-      "HaloTechin is a youtube channel focused on sharing knowledge, tips & tricks, and a community about Technology for everyone who wants to learn about Updated Tech. Subscribe to our channel and be powerful!.",
-    propjectTeam: "Moonlight Team",
-    date: "May 10, 2022",
-    readMoreLink: "",
-  },
-  {
-    id: 3,
     title: "KKN Tegalwaru Logo Project",
     imgSrc:
       "https://user-images.githubusercontent.com/60167960/231047262-42137256-16aa-4b50-8e54-aae5b16ede08.png",
@@ -33,7 +22,7 @@ export const projectsAttribute = [
     readMoreLink: "",
   },
   {
-    id: 4,
+    id: 3,
     title: "KKN Tegalwaru Video Project",
     imgSrc:
       "https://user-images.githubusercontent.com/60167960/231047312-26cdb3fa-89e4-4d17-91fc-22f2e7cb74e8.jpg",
@@ -41,7 +30,18 @@ export const projectsAttribute = [
       "I made The Profile Video for UMKM with my Kuliah Kerja Nyata (KKN) team program in Tegal Waru Village from IPB University.",
     propjectTeam: "KKN Tegalwaru Team",
     date: "June 18, 2020",
-    readMoreLink: "",
+    readMoreLink: "https://www.youtube.com/@otwkkntegalwarukuy9359/videos",
+  },
+  {
+    id: 4,
+    title: "Halotech.in Academy Project",
+    imgSrc:
+      "https://user-images.githubusercontent.com/60167960/230816950-197eadb0-c6ef-4ad5-909f-d8975261cdf8.png",
+    description:
+      "HaloTechin is a youtube channel focused on sharing knowledge, tips & tricks, and a community about Technology for everyone who wants to learn about Updated Tech. Subscribe to our channel and be powerful!.",
+    propjectTeam: "Moonlight Team",
+    date: "May 10, 2022",
+    readMoreLink: "https://www.youtube.com/@halotechacademy",
   },
   {
     id: 5,
@@ -74,6 +74,6 @@ export const projectsAttribute = [
       "After I learned about DOM (Document Object Model), I try to make a mini project to apply my knowledge, and Woala! here it this!",
     propjectTeam: "Self Project",
     date: "July 10, 2022",
-    readMoreLink: "",
+    readMoreLink: "https://github.com/ghaly09/calculator-project-DOM",
   },
 ];
